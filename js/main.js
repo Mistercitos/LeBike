@@ -12,7 +12,8 @@ const motos = [
         kilometraje: 32000,
         tipo: "Deportivas",
         precio: 7500,
-        imagen: "https://images.topgear.com.ph/topgear/images/2018/10/11/cbr500r-main1-1539220163.jpg"
+        imagen:
+          "https://images.topgear.com.ph/topgear/images/2018/10/11/cbr500r-main1-1539220163.jpg",
       },
       {
         modelo: "CBR650R",
@@ -21,7 +22,7 @@ const motos = [
         kilometraje: 25000,
         tipo: "Deportivas",
         precio: 9500,
-        imagen: "https://650f.bike/showcase/2022-cbr650r.148/cover-image"
+        imagen: "https://650f.bike/showcase/2022-cbr650r.148/cover-image",
       },
       {
         modelo: "CBR1000RR",
@@ -30,7 +31,7 @@ const motos = [
         kilometraje: 40000,
         tipo: "Deportivas",
         precio: 15000,
-        imagen: "https://i.redd.it/r9yrz6dpj0vb1.jpg"
+        imagen: "https://i.redd.it/r9yrz6dpj0vb1.jpg",
       },
     ],
   },
@@ -45,7 +46,7 @@ const motos = [
         kilometraje: 28000,
         tipo: "Deportivas",
         precio: 11000,
-        imagen: "https://i.redd.it/3qk5go54q0181.jpg"
+        imagen: "https://i.redd.it/3qk5go54q0181.jpg",
       },
       {
         modelo: "YZF-R1",
@@ -54,7 +55,8 @@ const motos = [
         kilometraje: 35000,
         tipo: "Deportivas",
         precio: 16000,
-        imagen: "https://bikes.motobank.co.uk/fp/27230/yamaha-yzf-r1-2021-midnight-black_351569.jpg"
+        imagen:
+          "https://bikes.motobank.co.uk/fp/27230/yamaha-yzf-r1-2021-midnight-black_351569.jpg",
       },
       {
         modelo: "MT-09",
@@ -63,7 +65,8 @@ const motos = [
         kilometraje: 30000,
         tipo: "Naked",
         precio: 9000,
-        imagen: "https://www.thebikemarket.co.uk/media/2652061/yamaha-mt-09-2017-ch.jpg?width=640"
+        imagen:
+          "https://www.thebikemarket.co.uk/media/2652061/yamaha-mt-09-2017-ch.jpg?width=640",
       },
       {
         modelo: "MT-07",
@@ -72,7 +75,7 @@ const motos = [
         kilometraje: 18000,
         tipo: "Naked",
         precio: 7500,
-        imagen: "https://i.redd.it/r9yrz6dpj0vb1.jpg"
+        imagen: "https://i.redd.it/r9yrz6dpj0vb1.jpg",
       },
       {
         modelo: "Tenere 700",
@@ -81,7 +84,7 @@ const motos = [
         kilometraje: 12000,
         tipo: "Adventure",
         precio: 12000,
-        imagen: "https://i.redd.it/r9yrz6dpj0vb1.jpg"
+        imagen: "https://i.redd.it/r9yrz6dpj0vb1.jpg",
       },
       {
         modelo: "XSR900",
@@ -90,7 +93,7 @@ const motos = [
         kilometraje: 25000,
         tipo: "Retro",
         precio: 10000,
-        imagen: "https://i.redd.it/r9yrz6dpj0vb1.jpg"
+        imagen: "https://i.redd.it/r9yrz6dpj0vb1.jpg",
       },
     ],
   },
@@ -1117,11 +1120,15 @@ const motos = [
         kilometraje: 28000,
         tipo: "Scooter",
         precio: 4500,
-        imagen: "https://www.reinaintlauto.com/galleria_images/2090/2090_main_f.jpg"
+        imagen:
+          "https://www.reinaintlauto.com/galleria_images/2090/2090_main_f.jpg",
       },
     ],
   },
 ];
+
+let carro = [];
+let total = 0;
 
 //Ahora se viene lo bueno
 
@@ -1152,21 +1159,16 @@ function cargarProductos() {
 }
 cargarProductos();
 
-//Agregar productos al carrito
+//Agregamos los productos al carrito cada vez que se presione el boton de "Agregar"
 
-let carrito = [];
-
-function agregarAlCarrito(marca, modelo) {
-  for (let marcaObj of motos) {
-    if (marcaObj.marca === marca) {
-      for (let modeloObj of marcaObj.modelos) {
-        if (modeloObj.modelo === modelo) {
-          carrito.push(modeloObj);
-          console.log(`Moto ${modelo} de ${marca} agregada al carrito.`);
-          return;
-        }
-      }
-    }
-  }
-  console.log(`Moto ${modelo} de ${marca} no encontrada.`);
-}
+botonesAgregar.forEach((boton) => {
+  boton.addEventListener("click", (e) => {
+    const moto = e.target.parentElement.parentElement;
+    const modelo = {
+      modelo: moto.querySelector(".titulo-producto").textContent,
+      precio: parseInt(moto.querySelector(".precio-producto").textContent.replace("$ ", "")),
+    };
+    carro.push(modelo);
+    actualizarCarrito();
+  });
+});
