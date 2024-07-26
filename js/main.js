@@ -1154,31 +1154,19 @@ cargarProductos();
 
 //Agregar productos al carrito
 
-const carrito = [];
+let carrito = [];
 
-function encontrarMotoPorModelo(modelo) {
-  for (const marca of motos) {
-      const moto = marca.modelos.find(m => m.modelo === modelo);
-      if (moto) {
-          return moto;
+function agregarAlCarrito(marca, modelo) {
+  for (let marcaObj of motos) {
+    if (marcaObj.marca === marca) {
+      for (let modeloObj of marcaObj.modelos) {
+        if (modeloObj.modelo === modelo) {
+          carrito.push(modeloObj);
+          console.log(`Moto ${modelo} de ${marca} agregada al carrito.`);
+          return;
+        }
       }
+    }
   }
-  return null;
+  console.log(`Moto ${modelo} de ${marca} no encontrada.`);
 }
-
-function agregarAlCarrito(modelo) {
-  const moto = encontrarMotoPorModelo(modelo);
-  if (moto) {
-      carrito.push(moto);
-      console.log(`${moto.modelo} agregado al carrito`);
-  } else {
-      console.log(`Moto con modelo ${modelo} no encontrada`);
-  }
-}
-
-document.querySelectorAll('.boton-agregar').forEach(button => {
-  button.addEventListener('click', (event) => {
-      const modelo = event.target.getAttribute('data-modelo');
-      agregarAlCarrito(modelo);
-  });
-});
