@@ -1,0 +1,1013 @@
+[
+  {
+    "brand": "Honda",
+    "country": "Japón",
+    "models": [
+      {
+        "name": "CBR 500 R",
+        "cylinder": 471,
+        "year": 2020,
+        "mileage": 32000,
+        "type": "Deportivas",
+        "price": 7500,
+        "image": "https://images.topgear.com.ph/topgear/images/2018/10/11/cbr500r-main1-1539220163.jpg"
+      },
+      {
+        "name": "CBR 650 R",
+        "cylinder": 649,
+        "year": 2022,
+        "mileage": 25000,
+        "type": "Deportivas",
+        "price": 9500,
+        "image": "https://650f.bike/showcase/2022-cbr650r.148/cover-image"
+      },
+      {
+        "name": "CBR 1000 RR",
+        "cylinder": 999,
+        "year": 2018,
+        "mileage": 40.0,
+        "type": "Deportivas",
+        "price": 15000,
+        "image": "https://i.redd.it/r9yrz6dpj0vb1.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "Yamaha",
+    "country": "Japón",
+    "models": [
+      {
+        "name": "YZF-R6",
+        "cylinder": 599,
+        "year": 2019,
+        "mileage": 28000,
+        "type": "Deportivas",
+        "price": 11000,
+        "image": "https://i.redd.it/3qk5go54q0181.jpg"
+      },
+      {
+        "name": "YZF-R1",
+        "cylinder": 998,
+        "year": 2021,
+        "mileage": 35000,
+        "type": "Deportivas",
+        "price": 16000,
+        "image": "https://bikes.motobank.co.uk/fp/27230/yamaha-yzf-r1-2021-midnight-black_351569.jpg"
+      },
+      {
+        "name": "MT-09",
+        "cylinder": 847,
+        "year": 2017,
+        "mileage": 30000,
+        "type": "Naked",
+        "price": 9000,
+        "image": "https://www.thebikemarket.co.uk/media/2652061/yamaha-mt-09-2017-ch.jpg?width=640"
+      },
+      {
+        "name": "MT-07",
+        "cylinder": 689,
+        "year": 2020,
+        "mileage": 18000,
+        "type": "Naked",
+        "price": 7500,
+        "image": "https://akmotorcycles.com/wp-content/uploads/2022/12/WhatsApp-Image-2022-12-03-at-12.55.56-PM.jpeg"
+      },
+      {
+        "name": "Tenere 700",
+        "cylinder": 689,
+        "year": 2022,
+        "mileage": 12000,
+        "type": "Adventure",
+        "price": 12000,
+        "image": "https://roaddirt.tv/wp-content/uploads/2022/05/IMG_0223-1100x640.jpg"
+      },
+      {
+        "name": "XSR 900",
+        "cylinder": 847,
+        "year": 2018,
+        "mileage": 25000,
+        "type": "Retro",
+        "price": 10000,
+        "image": "https://preview.redd.it/xsr-900-2018-v0-37qtzb4orrmb1.jpg?width=640&crop=smart&auto=webp&s=4485848b057209fca3f14fa0ff5e4c17c146cb53"
+      }
+    ]
+  },
+  {
+    "brand": "Kawasaki",
+    "country": "Japón",
+    "models": [
+      {
+        "name": "Ninja ZX-6R",
+        "cylinder": 636,
+        "year": 2023,
+        "mileage": 15000,
+        "type": "Deportivas",
+        "price": 11500,
+        "image": "https://cloudfront-us-east-1.images.arcpublishing.com/octane/Z4UIHWRP6FASFKM4USBK7LXSTY.jpg"
+      },
+      {
+        "name": "Ninja 650",
+        "cylinder": 649,
+        "year": 2020,
+        "mileage": 22000,
+        "type": "Deportivas",
+        "price": 8500,
+        "image": "https://www.cyclenews.com/wp-content/uploads/2020/03/2020-Kawasaki-Ninja-650-MSRP.jpg"
+      },
+      {
+        "name": "Z900",
+        "cylinder": 948,
+        "year": 2019,
+        "mileage": 28000,
+        "type": "Naked",
+        "price": 9500,
+        "image": "https://i0.wp.com/canadamotoguide.com/wp-content/uploads/2019/07/DSC_0591.jpg?resize=696%2C462&ssl=1"
+      },
+      {
+        "name": "MT-07",
+        "cylinder": 689,
+        "year": 2020,
+        "mileage": 18000,
+        "type": "Naked",
+        "price": 7500,
+        "image": "https://akmotorcycles.com/wp-content/uploads/2022/12/WhatsApp-Image-2022-12-03-at-12.55.56-PM.jpeg"
+      },
+      {
+        "name": "Tenere 700",
+        "cylinder": 689,
+        "year": 2022,
+        "mileage": 12000,
+        "type": "Adventure",
+        "price": 12000,
+        "image": "https://roaddirt.tv/wp-content/uploads/2022/05/IMG_0223-1100x640.jpg"
+      },
+      {
+        "name": "Ninja 400",
+        "cylinder": 399,
+        "year": 2021,
+        "mileage": 10000,
+        "type": "Deportivas",
+        "price": 6000,
+        "image": "https://5.imimg.com/data5/SELLER/Default/2023/4/301191977/DJ/NE/XW/188093224/61a072471984ce11427edcc2.jpg"
+      },
+      {
+        "name": "Versys 650",
+        "cylinder": 649,
+        "year": 2018,
+        "mileage": 35000,
+        "type": "Adventure",
+        "price": 8000,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlWn9uG9xwRnGN1eQqNwy7sEwwUcyk1lK-xA&s"
+      },
+      {
+        "name": "Vulcan S",
+        "cylinder": 649,
+        "year": 2017,
+        "mileage": 40000,
+        "type": "Cruiser",
+        "price": 7500,
+        "image": "https://res.cloudinary.com/twisted-road/image/upload/c_fill,g_auto,h_600,w_900,q_auto,f_auto/v1676951191/twisted_api/production/vehicles/ejsy4ugmo86imns7uqwm.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "Suzuki",
+    "country": "Japón",
+    "models": [
+      {
+        "name": "GSX-R600",
+        "cylinder": 599,
+        "year": 2018,
+        "mileage": 30000,
+        "type": "Deportivas",
+        "price": 8500,
+        "image": "https://mcn-images.bauersecure.com/wp-images/4009/1440x960/suzuki_gsx-r600_8.jpg?mode=max&quality=90&scale=down"
+      },
+      {
+        "name": "GSX-R750",
+        "cylinder": 750,
+        "year": 2020,
+        "mileage": 25000,
+        "type": "Deportivas",
+        "price": 9500,
+        "image": "https://i.redd.it/3snl3zju3jr91.jpg"
+      },
+      {
+        "name": "GSX-S750",
+        "cylinder": 749,
+        "year": 2019,
+        "mileage": 18000,
+        "type": "Naked",
+        "price": 8000,
+        "image": "https://bike.net/res/media/img/oy800/ref/807/84542.jpg"
+      },
+      {
+        "name": "V-Strom 650",
+        "cylinder": 645,
+        "year": 2022,
+        "mileage": 20000,
+        "type": "Adventure",
+        "price": 9000,
+        "image": "https://www.zabikers.co.za/wp-content/uploads/2022/07/IMG_0085.jpg"
+      },
+      {
+        "name": "Boulevard M109R",
+        "cylinder": 1783,
+        "year": 2017,
+        "mileage": 35000,
+        "type": "Cruiser",
+        "price": 12000,
+        "image": "https://images.offerup.com/aSQqGfTzgWG6Ugr2EyOCkdfsrvQ=/1280x959/00f0/00f05dd7f9ee42d6885939c1bc51769c.jpg"
+      },
+      {
+        "name": "Hayabusa",
+        "cylinder": 1340,
+        "year": 2021,
+        "mileage": 15000,
+        "type": "Sport Touring",
+        "price": 14000,
+        "image": "https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2021/07/2021-Suzuki-Hayabusa-Profile.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "Ducati",
+    "country": "Italia",
+    "models": [
+      {
+        "name": "Panigale V4",
+        "cylinder": 1103,
+        "year": 2020,
+        "mileage": 20000,
+        "type": "Superbike",
+        "price": 22000,
+        "image": "https://res.cloudinary.com/twisted-road/image/upload/c_fill,g_auto,h_600,w_900,q_auto,f_auto/v1628982352/twisted_api/production/vehicles/udbys8w9qd0ludhomuen.jpg"
+      },
+      {
+        "name": "Monster 821",
+        "cylinder": 821,
+        "year": 2019,
+        "mileage": 22000,
+        "type": "Naked",
+        "price": 15000,
+        "image": "https://bikesales.pxcrush.net/bikesales/cars/dealer/s3ptg694lvwp55ybphii5grb.jpg?pxc_width=900&pxc_height=600&pxc_method=crop&pxc_format=auto"
+      },
+      {
+        "name": "Multistrada V4",
+        "cylinder": 1158,
+        "year": 2021,
+        "mileage": 15000,
+        "type": "Adventure",
+        "price": 18000,
+        "image": "https://www.motorcyclenews.com/wp-images/4962/_2022_multistrada_v4.jpg"
+      },
+      {
+        "name": "Scrambler 1100",
+        "cylinder": 1079,
+        "year": 2018,
+        "mileage": 28000,
+        "type": "Scrambler",
+        "price": 13000,
+        "image": "https://cloudfront-us-east-1.images.arcpublishing.com/octane/2JBBU3NVKTW65RZFRLVNIVFCIY.jpg"
+      },
+      {
+        "name": "Diavel 1260",
+        "cylinder": 1262,
+        "year": 2022,
+        "mileage": 10000,
+        "type": "Cruiser",
+        "price": 19000,
+        "image": "https://www.motoplanete.com/ducati/zoom-700px/Ducati-1260-Diavel-S-2022-700-px.webp"
+      },
+      {
+        "name": "Streetfighter V4",
+        "cylinder": 1103,
+        "year": 2023,
+        "mileage": 8000,
+        "type": "Naked",
+        "price": 20000,
+        "image": "https://www.webbikeworld.com/wp-content/uploads/2023/10/mainimage.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "BMW",
+    "country": "Alemania",
+    "models": [
+      {
+        "name": "S 1000 RR",
+        "cylinder": 999,
+        "year": 2020,
+        "mileage": 18000,
+        "type": "Superbike",
+        "price": 23000,
+        "image": "https://www.s1000rrforum.com/cdn-cgi/image/format=auto,onerror=redirect,width=1920,height=1920,fit=scale-down//attachments/91ec134a-ee73-4505-8921-f1e5adb24b31-jpeg.222321/"
+      },
+      {
+        "name": "R 1250 GS",
+        "cylinder": 1254,
+        "year": 2021,
+        "mileage": 25000,
+        "type": "Adventure",
+        "price": 20000,
+        "image": "https://cloudfront-us-east-1.images.arcpublishing.com/octane/ICZZKBQKQFHNNNJFE5S657LHLI.jpg"
+      },
+      {
+        "name": "F 900 R",
+        "cylinder": 895,
+        "year": 2019,
+        "mileage": 30000,
+        "type": "Naked",
+        "price": 12000,
+        "image": "https://www.supermoto8.net/images/data/2_DSCF8263.jpg"
+      },
+      {
+        "name": "G 310 GS",
+        "cylinder": 313,
+        "year": 2018,
+        "mileage": 35000,
+        "type": "Adventure",
+        "price": 8000,
+        "image": "https://www.sernac.cl/portal/619/articles-57775_imagen_01.jpg"
+      },
+      {
+        "name": "R nineT",
+        "cylinder": 1170,
+        "year": 2017,
+        "mileage": 40000,
+        "type": "Retro",
+        "price": 15000,
+        "image": "https://cdn-fastly.motorcycle.com/media/2023/02/23/8869771/2017-bmw-r-ninet-pure-review.jpg?size=720x845&nocrop=1"
+      },
+      {
+        "name": "C 400 X",
+        "cylinder": 350,
+        "year": 2022,
+        "mileage": 15000,
+        "type": "Scooter",
+        "price": 7000,
+        "image": "https://fotografias.larazon.es/clipping/cmsimages01/2021/08/05/AA0A7251-A376-4731-BBDE-E3E0A454CF72/69.jpg?crop=3277,1843,x0,y307&width=1280&height=720&optimize=low&format=jpg"
+      }
+    ]
+  },
+  {
+    "brand": "Triumph",
+    "country": "Reino Unido",
+    "models": [
+      {
+        "name": "Street Triple RS",
+        "cylinder": 765,
+        "year": 2023,
+        "mileage": 12000,
+        "type": "Naked",
+        "price": 14000,
+        "image": "https://www.motorcyclenews.com/wp-images/194543/triumph-street-triple-765-r-01.jpg"
+      },
+      {
+        "name": "Tiger 800",
+        "cylinder": 800,
+        "year": 2018,
+        "mileage": 28000,
+        "type": "Adventure",
+        "price": 11000,
+        "image": "https://ridermagazinereviews.com/wp-content/uploads/2019/12/2018-Triumph-Tiger-800-XCA.jpg"
+      },
+      {
+        "name": "Speed Triple RS",
+        "cylinder": 1050,
+        "year": 2020,
+        "mileage": 22000,
+        "type": "Naked",
+        "price": 13000,
+        "image": "https://bikesales.pxcrush.net/bikesales/cars/dealer/cwqtgxghgdu7151ol8sxiiubb.jpg?pxc_method=fitfill&pxc_bgtype=self&height=725&width=1087"
+      },
+      {
+        "name": "Bonneville T120",
+        "cylinder": 1200,
+        "year": 2019,
+        "mileage": 20000,
+        "type": "Retro",
+        "price": 12000,
+        "image": "https://preview.redd.it/3xnks9dp87791.jpg?width=1080&crop=smart&auto=webp&s=5cc77fa72d7ac6c14e6071b52a9404b7aa709731"
+      },
+      {
+        "name": "Rocket 3",
+        "cylinder": 2458,
+        "year": 2021,
+        "mileage": 15000,
+        "type": "Cruiser",
+        "price": 18000,
+        "image": "https://da4dkroembtou.cloudfront.net/wp-content/uploads/2021/11/Rocket_1C.jpg"
+      },
+      {
+        "name": "Scrambler 1200",
+        "cylinder": 1200,
+        "year": 2022,
+        "mileage": 18000,
+        "type": "Scrambler",
+        "price": 14000,
+        "image": "https://cdnmedia.endeavorsuite.com/images/organizations/4faeba79-0e61-45a7-a97e-928d620070c5/inventory/11470341/Image%20(3)%20(1).jpeg?v=1670974739997"
+      }
+    ]
+  },
+  {
+    "brand": "Harley-Davidson",
+    "country": "Estados Unidos",
+    "models": [
+      {
+        "name": "Sportster Iron 883",
+        "cylinder": 883,
+        "year": 2017,
+        "mileage": 35000,
+        "type": "Cruiser",
+        "price": 12000,
+        "image": "https://ultimatemotorcycling.com/wp-content/uploads/2016/12/2017-Harley-Davidson-Sportster-Iron-883-motorcycle-review-7.jpg"
+      },
+      {
+        "name": "Street Glide",
+        "cylinder": 1868,
+        "year": 2020,
+        "mileage": 25000,
+        "type": "Touring",
+        "price": 18000,
+        "image": "https://cloudfront-us-east-1.images.arcpublishing.com/octane/4FHYLU6P2FH4BEV364B2BGHY5Q.jpg"
+      },
+      {
+        "name": "Fat Bob 114",
+        "cylinder": 1868,
+        "year": 2019,
+        "mileage": 22000,
+        "type": "Cruiser",
+        "price": 16000,
+        "image": "https://d2bywgumb0o70j.cloudfront.net/2021/01/12/07e7df1614c89bba646b52e3bd10aed0_058874f2527b7f96.jpg"
+      },
+      {
+        "name": "Road King",
+        "cylinder": 1746,
+        "year": 2021,
+        "mileage": 18000,
+        "type": "Touring",
+        "price": 20000,
+        "image": "https://cdn.motor1.com/images/mgl/gZj0m/s1/2021-harley-davidson-road-king-special---side-left.jpg"
+      },
+      {
+        "name": "Low Rider S",
+        "cylinder": 1868,
+        "year": 2018,
+        "mileage": 30000,
+        "type": "Cruiser",
+        "price": 15000,
+        "image": "https://cdn-fastly.motorcycle.com/media/2023/02/23/8876392/2018-harley-davidson-low-rider-review-first-ride.jpg?size=720x845&nocrop=1"
+      },
+      {
+        "name": "Pan America 1250",
+        "cylinder": 1252,
+        "year": 2022,
+        "mileage": 15000,
+        "type": "Adventure",
+        "price": 22000,
+        "image": "https://www.harley-davidson.com/content/dam/h-d/images/category-images/2022/short-hero/customized/2022-customized-pan-american-short-hero.jpg?impolicy=myresize&rw=1100"
+      }
+    ]
+  },
+  {
+    "brand": "Aprilia",
+    "country": "Italia",
+    "models": [
+      {
+        "name": "RSV4",
+        "cylinder": 1078,
+        "year": 2020,
+        "mileage": 15000,
+        "type": "Superbike",
+        "price": 18000,
+        "image": "https://imgcdn.zigwheels.my/large/gallery/exterior/52/777/aprilia-rsv4-slant-rear-view-full-image-771417.jpg"
+      },
+      {
+        "name": "Tuono V4 1100",
+        "cylinder": 1077,
+        "year": 2021,
+        "mileage": 18000,
+        "type": "Naked",
+        "price": 17000,
+        "image": "https://www.motorcyclenews.com/wp-images/5023/aprilia_tuono_v4_fac_01.jpg"
+      },
+      {
+        "name": "Shiver 900",
+        "cylinder": 896,
+        "year": 2019,
+        "mileage": 22000,
+        "type": "Naked",
+        "price": 12000,
+        "image": "https://images5.1000ps.net/b-f_W3005511-aprilia-shiver-900-test-2019-636910940901895256.jpg"
+      },
+      {
+        "name": "RS 660",
+        "cylinder": 659,
+        "year": 2022,
+        "mileage": 10000,
+        "type": "Sport",
+        "price": 14000,
+        "image": "https://i.redd.it/so-excited-to-own-my-brand-new-2022-aprilia-rs660-apex-v0-kbhygugf09w81.jpg?width=4032&format=pjpg&auto=webp&s=e3630339be7d438b93f459d2957f40cb56dfbd64"
+      },
+      {
+        "name": "Dorsoduro 900",
+        "cylinder": 896,
+        "year": 2018,
+        "mileage": 28000,
+        "type": "Supermotard",
+        "price": 11000,
+        "image": "https://www.revzilla.com/blog_content_image/image/45674/Aprilia_Dorsoduro_right_KW.jpg"
+      },
+      {
+        "name": "SR 125",
+        "cylinder": 124,
+        "year": 2023,
+        "mileage": 8000,
+        "type": "Scooter",
+        "price": 4000,
+        "image": "https://www.motociclismo.es/uploads/s1/12/39/56/74/voge-sr1-125-18.jpeg"
+      }
+    ]
+  },
+  {
+    "brand": "KTM",
+    "country": "Austria",
+    "models": [
+      {
+        "name": "RC 390",
+        "cylinder": 373,
+        "year": 2021,
+        "mileage": 10000,
+        "type": "Deportivas",
+        "price": 7500,
+        "image": "https://i.ytimg.com/vi/IiCSJ9K0t5k/maxresdefault.jpg"
+      },
+      {
+        "name": "Duke 390",
+        "cylinder": 373,
+        "year": 2020,
+        "mileage": 15000,
+        "type": "Naked",
+        "price": 7000,
+        "image": "https://preview.redd.it/for-sale-2020-ktm-390-duke-5-800-v0-7s490siida991.jpg?width=1080&crop=smart&auto=webp&s=f728539779ba60ffed507be5930a9dd41a7af74e"
+      },
+      {
+        "name": "Adventure 390",
+        "cylinder": 373,
+        "year": 2022,
+        "mileage": 8000,
+        "type": "Adventure",
+        "price": 8500,
+        "image": "https://www.team-bhp.com/sites/default/files/styles/amp_high_res/public/1_34.jpeg"
+      },
+      {
+        "name": "Super Duke R",
+        "cylinder": 1290,
+        "year": 2019,
+        "mileage": 25000,
+        "type": "Naked",
+        "price": 12000,
+        "image": "https://i.redd.it/161p3we7h7w41.jpg"
+      },
+      {
+        "name": "790 Adventure",
+        "cylinder": 799,
+        "year": 2024,
+        "mileage": 10000,
+        "type": "Adventure",
+        "price": 12000,
+        "image": "https://i.ytimg.com/vi/t83ma5XRB5U/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCQMFgYrdT9je8NFiUI-bdgxxrPIA"
+      },
+      {
+        "name": "RC 200",
+        "cylinder": 199,
+        "year": 2018,
+        "mileage": 30000,
+        "type": "Deportivas",
+        "price": 5500,
+        "image": "https://media.karousell.com/media/photos/products/2021/10/23/2018_ktm_rc200_for_sale_1634999299_8a15c211_progressive.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "MV Augusta",
+    "country": "Italia",
+    "models": [
+      {
+        "name": "F4",
+        "cylinder": 998,
+        "year": 2017,
+        "mileage": 40000,
+        "type": "Superbike",
+        "price":25000,
+        "image": "https://iconicmotorbikeauctions.com/wp-content/uploads/2024/06/2017-MV-Agusta-F4-RC-J-3.jpg"
+      },
+      {
+        "name": "Brutale 800",
+        "cylinder": 798,
+        "year": 2018,
+        "mileage": 35000,
+        "type": "Naked",
+        "price": 18000,
+        "image": "https://mcn-images.bauersecure.com/wp-images/4738/1440x960/mv-agusta-800-rr-2.jpg?mode=max&quality=90&scale=down"
+      },
+      {
+        "name": "Turismo Veloce 800",
+        "cylinder": 798,
+        "year": 2020,
+        "mileage": 22000,
+        "type": "Sport Touring",
+        "price": 20000,
+        "image": "https://www.webbikeworld.com/wp-content/uploads/2021/03/2021-turismo-veloce-800-lusso-HERO.jpg"
+      },
+      {
+        "name": "Dragster 800 RR",
+        "cylinder": 798,
+        "year": 2021,
+        "mileage": 18000,
+        "type": "Naked",
+        "price": 19000,
+        "image": "https://www.motorcyclenews.com/wp-images/59981/mv-dragster-800-rr-01.jpg"
+      },
+      {
+        "name": "Rivale 800",
+        "cylinder": 798,
+        "year": 2019,
+        "mileage": 18000,
+        "type": "Adventure",
+        "price": 21000,
+        "image": "https://gliddofglood.typepad.com/.a/6a00e551856f5d883401a511bc0895970c-800wi"
+      },
+      {
+        "name": "F3 675",
+        "cylinder": 675,
+        "year": 2022,
+        "mileage": 15000,
+        "type": "Superbike",
+        "price": 17000,
+        "image": "https://pitboard.com.au/wp-content/uploads/2022/02/Pitboard-2018-MV-Agusta-F3-675-RC-14.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "Moto Guzzi",
+    "country": "Italia",
+    "models": [
+      {
+        "name": "V7 III",
+        "cylinder": 744,
+        "year": 2018,
+        "mileage": 28000,
+        "type": "Retro",
+        "price":10000,
+        "image": "https://bike.net/res/media/img/hx400/ref/4a4/35577@2x.jpg"
+      },
+      {
+        "name": "V85 TT",
+        "cylinder": 853,
+        "year": 2019,
+        "mileage": 25000,
+        "type": "Adventure",
+        "price": 13000,
+        "image": "https://www.cyclenews.com/wp-content/uploads/2019/05/2019-Moto-Guzzi-V85TT-right-side.jpg"
+      },
+      {
+        "name": "Audace",
+        "cylinder": 1380,
+        "year": 2017,
+        "mileage": 30000,
+        "type": "Cruiser",
+        "price": 15000,
+        "image": "https://mcn-images.bauersecure.com/wp-images/4342/1440x960/1audace.jpg?mode=max&quality=90&scale=down"
+      },
+      {
+        "name": "California 1400 Touring",
+        "cylinder": 1380,
+        "year": 2021,
+        "mileage": 20000,
+        "type": "Touring",
+        "price": 16000,
+        "image": "https://www.mistralspecialparts.it/wp-content/uploads/2023/09/moto_guzzi_california_1400_scarichi_exclusive_mistral7.jpg"
+      },
+      {
+        "name": "Eldorado",
+        "cylinder": 1380,
+        "year": 2022,
+        "mileage": 15000,
+        "type": "Cruiser",
+        "price": 17000,
+        "image": "https://www.drivencarguide.co.nz/media/97170/2805drimdeldorado-1.jpg?width=1028&rnd=131117734840000000"
+      },
+      {
+        "name": "V9 Bobber",
+        "cylinder": 853,
+        "year": 2023,
+        "mileage": 10000,
+        "type": "Custom",
+        "price": 12000,
+        "image": "https://www.motoplanete.com/moto-guzzi/zoom-700px/9838-850-V9-Bobber-2023-1000px.webp"
+      }
+    ]
+  },
+  {
+    "brand": "Royal Enfield",
+    "country": "India",
+    "models": [
+      {
+        "name": "Interceptor 650",
+        "cylinder": 648,
+        "year": 2020,
+        "mileage": 15000,
+        "type": "Retro",
+        "price":8000,
+        "image": "https://imageio.forbes.com/specials-images/imageserve/5f36bea2e3ad4305ba9f6322/2020-Royal-Enfield-INT650-motorcycle/0x0.jpg?format=jpg&crop=4000,2667,x0,y0,safe&width=960"
+      },
+      {
+        "name": "Himalayan",
+        "cylinder": 411,
+        "year": 2021,
+        "mileage": 18000,
+        "type": "Adventure",
+        "price": 6000,
+        "image": "https://ultimatemotorcycling.com/wp-content/uploads/2020/08/2021-Royal-Enfield-Himalayan-First-Look-adventure-motorcycle-13.jpg"
+      },
+      {
+        "name": "Continental GT 650",
+        "cylinder": 648,
+        "year": 2019,
+        "mileage": 22000,
+        "type": "Coffee Racer",
+        "price": 8500,
+        "image": "https://www.motoradn.com/wp-content/uploads/2019/05/Royal-Enfield-Continental-GT-650-2019-presentaci%C3%B3n-MotorADN-27.jpg"
+      },
+      {
+        "name": "Classic 350",
+        "cylinder": 346,
+        "year": 2018,
+        "mileage": 25000,
+        "type": "Classic",
+        "price": 5000,
+        "image": "https://cdn.motor1.com/images/mgl/6ZKNME/s3/royal-enfield-argentina-lanzo-la-classic-350-en-autoclasica-2022.jpg"
+      },
+      {
+        "name": "Meteor 350",
+        "cylinder": 349,
+        "year": 2018,
+        "mileage": 25000,
+        "type": "Cruiser",
+        "price": 7000,
+        "image": "https://cdn-ds.com/stock/2022-Royal-Enfield-Meteor-350-Touring-Package-Boxborough-MA/seo/ECL4440-ME3FDP20XNV300801/sz_584519/w_1024/h_768/ec8f705573ffd8d6065f3858586f76ff.jpg"
+      },
+      {
+        "name": "Bullet 350",
+        "cylinder": 346,
+        "year": 2017,
+        "mileage": 30000,
+        "type": "Classic",
+        "price": 5500,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Royal_Enfield_Classic_350_%282017_Model_Year%29.jpg/1200px-Royal_Enfield_Classic_350_%282017_Model_Year%29.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "Benelli",
+    "country": "Italia",
+    "models": [
+      {
+        "name": "Leoncino 500",
+        "cylinder": 500,
+        "year": 2019,
+        "mileage": 22000,
+        "type": "Naked",
+        "price":7000,
+        "image": "https://media.karousell.com/media/photos/products/2021/12/13/benelli_leoncino_500_2019_red__1639421414_0f7b9df3_progressive.jpg"
+      },
+      {
+        "name": "TRK 502",
+        "cylinder": 500,
+        "year": 2020,
+        "mileage": 18000,
+        "type": "Adventure",
+        "price": 6500,
+        "image": "https://i.motoshare.nl/91/9174ef9c-2820-11ec-b846-6ae2fc7482cd.jpg"
+      },
+      {
+        "name": "502 C",
+        "cylinder": 500,
+        "year": 2021,
+        "mileage": 15000,
+        "type": "Cruiser",
+        "price": 6000,
+        "image": "https://cdn.motor1.com/images/mgl/Q18o8/s3/motoblog-cotidiano-benelli-502c.jpg"
+      },
+      {
+        "name": "Imperiale 400",
+        "cylinder": 374,
+        "year": 2018,
+        "mileage": 28000,
+        "type": "Classic",
+        "price": 5500,
+        "image": "https://www.motriz.info/wp-content/uploads/2022/01/imperiale-400-tapa.jpg"
+      },
+      {
+        "name": "Leoncino 800",
+        "cylinder": 754,
+        "year": 2022,
+        "mileage": 10000,
+        "type": "Naked",
+        "price": 10000,
+        "image": "https://www.motoplanete.com/benelli/zoom-700px/Benelli-800-Leoncino-Trail-2022-700px-2.webp"
+      },
+      {
+        "name": "TRK 800",
+        "cylinder": 754,
+        "year": 2022,
+        "mileage": 10000,
+        "type": "Adventure",
+        "price": 12000,
+        "image": "https://cdn.inmoto.it/images/2022/02/15/135254737-2e153079-a905-47e4-9c01-f3942adeda9a.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "Indian",
+    "country": "Estados Unidos",
+    "models": [
+      {
+        "name": "Scout Bobber",
+        "cylinder": 1133,
+        "year": 2017,
+        "mileage": 30000,
+        "type": "Cruiser",
+        "price":14000,
+        "image": "https://mcn-images.bauersecure.com/wp-images/4548/1440x960/scout-bobber-twenty-02.jpg?mode=max&quality=90&scale=down"
+      },
+      {
+        "name": "FTR 1200",
+        "cylinder": 1203,
+        "year": 2019,
+        "mileage": 25000,
+        "type": "Naked",
+        "price": 16000,
+        "image": "https://ridermagazine.com/wp-content/uploads/2019/05/Indian-FTR-1200-static-beautyR.jpg"
+      },
+      {
+        "name": "Chieftain",
+        "cylinder": 1811,
+        "year": 2019,
+        "mileage": 25000,
+        "type": "Touring",
+        "price": 18000,
+        "image": "https://ridermagazine.com/wp-content/uploads/2018/09/2019-Indian-Chieftain-Limited.jpg"
+      },
+      {
+        "name": "Springfield",
+        "cylinder": 1811,
+        "year": 2021,
+        "mileage": 15000,
+        "type": "Touring",
+        "price": 19000,
+        "image": "https://images.craigslist.org/00y0y_5VGKpPprN3U_0ak07K_600x450.jpg"
+      },
+      {
+        "name": "Roadmaster",
+        "cylinder": 1890,
+        "year": 2018,
+        "mileage": 28000,
+        "type": "Touring",
+        "price": 20000,
+        "image": "https://static0.topspeedimages.com/wordpress/wp-content/uploads/jpg/201707/2018-roadmasterelite-12.jpg"
+      },
+      {
+        "name": "Chief Dark Horse",
+        "cylinder": 1890,
+        "year": 2022,
+        "mileage": 12000,
+        "type": "Cruiser",
+        "price": 22000,
+        "image": "https://i.pinimg.com/736x/d4/3c/ab/d43cab0e3359f2d666087ad0a0eb0376.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "Zero Motorcycles",
+    "country": "Estados Unidos",
+    "models": [
+      {
+        "name": "SR/F",
+        "cylinder": 0,
+        "year": 2020,
+        "mileage": 8000,
+        "type": "Eléctrica",
+        "price":18000,
+        "image": "https://lh3.googleusercontent.com/proxy/9Yp1Emd863goRLR89jdh2jjjAFjgznTeGcvzesrA6QZUy6Q1HupxRRsSPJ0SBpD1yaubEtHiJV4CRkNw6kR8SCiRPnoRdFvVv7N52uUaN6ZEMiZCNy7FsphfoJ-vt9TzY5Iax7ENhavCPe_eigIsHh3PV8fY3MWlDRFwWXqFXsp8yJNa7mvH4Gv4D8U3H2sdguDACjboS5km0S5pEAQSHGs"
+      },
+      {
+        "name": "SR/S",
+        "cylinder": 0,
+        "year": 2021,
+        "mileage": 10000,
+        "type": "Eléctrica",
+        "price": 20000,
+        "image": "https://images5.1000ps.net/images_bikekat/2021/199-Zero/10316-SR_S/001-637490916785348618-zero-sr-s.jpg?format=webp&quality=80&trim.threshold=80&trim.percentpadding=1&scale=both&width=1168&height=664&bgcolor=rgba_39_42_44_0&mode=pad"
+      },
+      {
+        "name": "DSR",
+        "cylinder": 0,
+        "year": 2019,
+        "mileage": 12000,
+        "type": "Eléctrica",
+        "price": 16000,
+        "image": "https://ridermagazine.com/wp-content/uploads/2018/11/2019-Zero-DSR-beauty-R.jpg"
+      },
+      {
+        "name": "FXS",
+        "cylinder": 0,
+        "year": 2018,
+        "mileage": 15000,
+        "type": "Eléctrica",
+        "price": 14000,
+        "image": "https://cdn.dealerspike.com/imglib/v1/800x600/imglib/Assets/Inventory/78/AC/78ACDEB9-F8D1-41F3-B90E-39F5EAEAA6D7.jpg"
+      },
+      {
+        "name": "SRF Premium",
+        "cylinder": 0,
+        "year": 2022,
+        "mileage": 15000,
+        "type": "Eléctrica",
+        "price": 14000,
+        "image": "https://electrek.co/wp-content/uploads/sites/3/2020/04/zero-srf-header-review.jpg?quality=82&strip=all"
+      },
+      {
+        "name": "DS",
+        "cylinder": 0,
+        "year": 2023,
+        "mileage": 4000,
+        "type": "Eléctrica",
+        "price": 24000,
+        "image": "https://cdn.images.stock.i-motor.net.au/vehicles/large/2889804-ZERO%20DS%207.2-80d4a2fe-18e8-50c6-a6ac-580988aacefa.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "Husqvarna",
+    "country": "Suecia",
+    "models": [
+      {
+        "name": "Vitpilen 701",
+        "cylinder":692,
+        "year": 2018,
+        "mileage": 28000,
+        "type": "Coffee Racer",
+        "price":11000,
+        "image": "https://kickstart.bikeexif.com/wp-content/uploads/2018/03/2018-husqvarna-vitpilen-701-review-1.jpg"
+      },
+      {
+        "name": "Svartpilen 401",
+        "cylinder": 373,
+        "year": 2019,
+        "mileage": 25000,
+        "type": "Scrambler",
+        "price": 9000,
+        "image": "https://rxi.iscdn.net/2019/06/185657_2019_husq_svartpilen-cudby-0001.jpg"
+      },
+      {
+        "name": "701 Enduro",
+        "cylinder": 692,
+        "year": 2020,
+        "mileage": 18000,
+        "type": "Adventure",
+        "price": 12000,
+        "image": "https://images5.1000ps.net/images_bikekat/2022/42-Husqvarna/8408-701_Enduro/003-637776697643234931-husqvarna-701-enduro.jpg?format=webp&quality=80&trim.threshold=80&trim.percentpadding=1&scale=both&width=1900&height=1156&bgcolor=rgba_39_42_44_0&mode=pad"
+      },
+      {
+        "name": "FE 501s",
+        "cylinder": 510,
+        "year": 2021,
+        "mileage": 22000,
+        "type": "Enduro",
+        "price": 13000,
+        "image": "https://cdn.shopify.com/s/files/1/0578/8722/8063/t/5/assets/husq501project-july21-cudby-030.jpg-1694533887259.jpg?v=1694533888"
+      },
+      {
+        "name": "SRF Premium",
+        "cylinder": 0,
+        "year": 2022,
+        "mileage": 15000,
+        "type": "Eléctrica",
+        "price": 14000,
+        "image": "https://electrek.co/wp-content/uploads/sites/3/2020/04/zero-srf-header-review.jpg?quality=82&strip=all"
+      },
+      {
+        "name": "DS",
+        "cylinder": 0,
+        "year": 2023,
+        "mileage": 4000,
+        "type": "Eléctrica",
+        "price": 24000,
+        "image": "https://cdn.images.stock.i-motor.net.au/vehicles/large/2889804-ZERO%20DS%207.2-80d4a2fe-18e8-50c6-a6ac-580988aacefa.jpg"
+      }
+    ]
+  }
+]
