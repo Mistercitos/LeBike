@@ -1,12 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
     const cartItems = document.getElementById('cartItems');
     const cartTotal = document.getElementById('cartTotal');
+    const clearCartBtn = document.getElementById('clearCartBtn');
     const purchaseBtn = document.getElementById('purchaseBtn');
     const termsCheckbox = document.getElementById('termsCheckbox');
+    const cartCount = document.getElementById('cart-count');
 
     let cart = JSON.parse(localStorage.getItem('cart')) || [];
 
-    const updateCartDisplay = () => {
+    // Función para mostrar los productos en el carrito
+    const displayCartItems = () => {
         cartItems.innerHTML = '';
         let total = 0;
 
@@ -16,80 +19,86 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const row = document.createElement('tr');
             row.innerHTML = `
-            <td><img src="${item.image}" alt="${item.name}" style="height: 50px;"></td>
-            <td>${item.name}</td>
-            <td>${item.year}</td>
-            <td>
-                <input type="number" min="1" class="form-control quantity-input" data-index="${index}" value="${item.quantity}">
-            </td>
-            <td>$${item.price}</td>
-            <td>$${subtotal}</td>
-            <td>
-                <button class="btn btn-danger btn-sm remove-item" data-index="${index}"><i class="fa-solid fa-trash"></i></button>
-            </td>`;
+                <td><img src="${item.image}" alt="${item.name}" class="img-fluid" style="max-width: 100px;"></td>
+                <td>${item.name}</td>
+                <td>${item.year}</td>
+                <td>
+                    <input type="number" class="form-control quantity-input" value="${item.quantity}" min="1" data-index="${index}">
+                </td>
+                <td>USD ${item.price}</td>
+                <td>USD ${subtotal}</td>
+                <td>
+                    <button class="btn btn-danger btn-sm remove-item" data-index="${index}">Eliminar</button>
+                </td>
+            `;
             cartItems.appendChild(row);
         });
 
         cartTotal.textContent = total.toFixed(2);
+        updateCartCount();
     };
 
-    const saveCart = () => {
-        localStorage.setItem('cart', JSON.stringify(cart));
+    // Función para actualizar la cuenta del carrito
+    const updateCartCount = () => {
+        cartCount.textContent = cart.reduce((acc, item) => acc + item.quantity, 0);
     };
 
-    cartItems.addEventListener('click', (e) => {
-        if (e.target.classList.contains('remove-item')) {
-            const index = e.target.getAttribute('data-index');
-            cart.splice(index, 1);
-            saveCart();
-            updateCartDisplay();
-            toastr.info('Producto eliminado del carrito');
-        }
-    });
-
-    cartItems.addEventListener('input', (e) => {
+    // Evento para cambiar la cantidad de un producto
+    cartItems.addEventListener('change', (e) => {
         if (e.target.classList.contains('quantity-input')) {
             const index = e.target.getAttribute('data-index');
-            const newQuantity = parseInt(e.target.value, 10);
+            const newQuantity = parseInt(e.target.value);
+
             if (newQuantity > 0) {
                 cart[index].quantity = newQuantity;
-                saveCart();
-                updateCartDisplay();
+                localStorage.setItem('cart', JSON.stringify(cart));
+                displayCartItems();
+            } else {
+                toastr.error('La cantidad debe ser mayor que cero.');
             }
         }
     });
 
-    document.getElementById('clearCartBtn').addEventListener('click', () => {
-        cart = [];
-        saveCart();
-        updateCartDisplay();
-        toastr.warning('Carrito limpiado');
+    // Evento para eliminar un producto del carrito
+    cartItems.addEventListener('click', (e) => {
+        if (e.target.classList.contains('remove-item')) {
+            const index = e.target.getAttribute('data-index');
+            cart.splice(index, 1);
+            localStorage.setItem('cart', JSON.stringify(cart));
+            displayCartItems();
+            toastr.success('Producto eliminado del carrito.');
+        }
     });
 
+    // Evento para limpiar el carrito
+    clearCartBtn.addEventListener('click', () => {
+        cart = [];
+        localStorage.setItem('cart', JSON.stringify(cart));
+        displayCartItems();
+        toastr.success('Carrito limpiado.');
+    });
+
+    // Evento para comprar
+    purchaseBtn.addEventListener('click', () => {
+        if (termsCheckbox.checked) {
+            Swal.fire(
+                'Compra exitosa',
+                '¡Gracias por su compra!',
+                'success'
+            );
+            cart = [];
+            localStorage.setItem('cart', JSON.stringify(cart));
+            displayCartItems();
+        } else {
+            toastr.error('Debe aceptar los términos y condiciones para comprar.');
+        }
+    });
+
+    // Habilitar el botón de compra solo si se aceptan los términos
     termsCheckbox.addEventListener('change', () => {
         purchaseBtn.disabled = !termsCheckbox.checked;
     });
 
-    document.getElementById('purchaseBtn').addEventListener('click', () => {
-        if (cart.length > 0 && termsCheckbox.checked) {
-
-            Swal.fire(
-                'Compra realizada!',
-                'Gracias por su compra.',
-                'success'
-            );
-
-            cart = [];
-            saveCart();
-            updateCartDisplay();
-        } else {
-            Swal.fire(
-                'Error!',
-                'El carrito está vacío.',
-                'error'
-            );
-        }
-    });
-
-    updateCartDisplay();
+    // Cargar los productos del carrito al iniciar
+    displayCartItems();
 });

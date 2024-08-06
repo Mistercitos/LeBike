@@ -269,3 +269,19 @@ input[type="range"]::-moz-range-thumb:hover {
   padding: 15px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+textarea::placeholder,
+input::placeholder {
+  color: var(--clr-text);
+  opacity: 0.7;
+}
+
+::-ms-input-placeholder {
+  color: var(--clr-text);
+  opacity: 0.7;
+}
+
+:-ms-input-placeholder {
+  color: var(--clr-text);
+  opacity: 0.7;
+}

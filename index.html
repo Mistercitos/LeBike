@@ -23,11 +23,13 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
       rel="stylesheet"
     />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css"
+      rel="stylesheet"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
 
-    
     <!-- Iconos y Fuentes -->
     <link
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap"
@@ -38,8 +40,12 @@
       rel="stylesheet"
     />
 
-    <!-- Archivo CSS personalizado -->
+    <!-- CSS -->
     <link rel="stylesheet" href="./css/estilos.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="./img/Favicon.png" type="image/LeBike">
+
   </head>
 
   <body>
@@ -85,14 +91,21 @@
       <div class="container my-5">
         <div class="row">
           <!-- Barra Lateral de Filtros -->
-          <aside class="col-md-3">
+          <aside class="col-md-3 filters-container">
             <h5 class="text-light">Filtros</h5>
             <div class="mb-3">
               <label for="brandFilter" class="form-label text-light"
                 >Marca</label
               >
               <select id="brandFilter" class="form-select" multiple="multiple">
-                <!-- Opciones se llenarán dinámicamente -->
+              </select>
+            </div>
+
+            <div class="mb-3">
+              <label for="countryFilter" class="form-label text-light"
+                >País</label
+              >
+              <select id="countryFilter" class="form-select" multiple="multiple">
               </select>
             </div>
 
@@ -101,7 +114,6 @@
                 >Tipo de Moto</label
               >
               <select id="typeFilter" class="form-select" multiple="multiple">
-                <!-- Opciones se llenarán dinámicamente -->
               </select>
             </div>
             <div class="mb-3">
@@ -123,34 +135,41 @@
               <label for="cylinderRange" class="form-label text-light"
                 >Cilindrada</label
               >
-              <input type="range" class="form-range input-range" id="cylinderRange" min="124" max="3000" step="1">
+              <input
+                type="range"
+                class="form-range input-range"
+                id="cylinderRange"
+                min="124"
+                max="3000"
+                step="1"
+              />
               <div class="d-flex justify-content-between text-light">
                 <span id="cylinderRangeMin">124</span>
                 <span id="cylinderRangeMax">3000</span>
               </div>
-            <div class="mb-3">
-              <label for="priceRange" class="form-label text-light"
-                >Precio</label
-              >
-              <input
-                type="range"
-                class="form-range input-range"
-                id="priceRange"
-                min="6000"
-                max="22000"
-                step="100"
-              />
-              <div class="d-flex justify-content-between text-light">
-                <span id="priceRangeMin">6000</span>
-                <span id="priceRangeMax">22000</span>
+              <div class="mb-3">
+                <label for="priceRange" class="form-label text-light"
+                  >Precio</label
+                >
+                <input
+                  type="range"
+                  class="form-range input-range"
+                  id="priceRange"
+                  min="4000"
+                  max="25000"
+                  step="100"
+                />
+                <div class="d-flex justify-content-between text-light">
+                  <span id="priceRangeMin">4000</span>
+                  <span id="priceRangeMax">25000</span>
+                </div>
               </div>
-            </div>
-            <button id="filterBtn" class="btn btn-primary w-100 mb-2">
-              Filtrar
-            </button>
-            <button id="clearFilterBtn" class="btn btn-secondary w-100">
-              Limpiar Filtros
-            </button>
+              <button id="filterBtn" class="btn btn-primary w-100 mb-2">
+                Filtrar
+              </button>
+              <button id="clearFilterBtn" class="btn btn-secondary w-100">
+                Limpiar Filtros
+              </button>
           </aside>
 
           <!-- Lista de Motos -->
@@ -169,7 +188,6 @@
 
     <!-- Scripts de Bootstrap, Toastr y SweetAlert2 -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>

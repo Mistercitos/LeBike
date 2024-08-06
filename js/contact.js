@@ -1,39 +1,47 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const contactForm = document.getElementById("contactForm");
+document.addEventListener('DOMContentLoaded', () => {
+  const contactForm = document.getElementById('contactForm');
+  
+  // Función para mostrar mensajes de éxito o error
+  const showAlert = (type, message) => {
+    Swal.fire({
+      icon: type,
+      title: type === 'success' ? '¡Éxito!' : 'Error',
+      text: message,
+      confirmButtonText: 'Aceptar'
+    });
+  };
 
-  contactForm.addEventListener("submit", (e) => {
-    e.preventDefault();
-
-    // Verificar si la casilla de verificación está marcada
-    const acceptContact = document.getElementById("acceptContact").checked;
-    if (!acceptContact) {
-      Swal.fire(
-        "Error!",
-        "Debe aceptar ser contactado para enviar el formulario.",
-        "error"
-      );
-      return;
+  // Función para validar el formulario
+  const validateForm = () => {
+    const fields = ['firstName', 'lastName', 'email', 'phone', 'age', 'country', 'city', 'message'];
+    for (let field of fields) {
+      const input = document.getElementById(field);
+      if (!input.value.trim()) {
+        input.focus();
+        showAlert('error', 'Por favor completa todos los campos.');
+        return false;
+      }
     }
+    const termsCheckbox = document.getElementById('acceptContact');
+    if (!termsCheckbox.checked) {
+      termsCheckbox.focus();
+      showAlert('error', 'Debes aceptar ser contactado.');
+      return false;
+    }
+    return true;
+  };
 
-    // Obtener valores del formulario
-    const firstName = document.getElementById("firstName").value;
-    const lastName = document.getElementById("lastName").value;
-    const email = document.getElementById("email").value;
-    const phone = document.getElementById("phone").value;
-    const age = document.getElementById("age").value;
-    const country = document.getElementById("country").value;
-    const city = document.getElementById("city").value;
+  // Manejar el evento de envío del formulario
+  contactForm.addEventListener('submit', (e) => {
+    e.preventDefault(); // Prevenir el envío del formulario por defecto
 
-    // Aquí podría ir la lógica para enviar el formulario (e.g., AJAX, etc.)
+    if (validateForm()) {
+      // Aquí podrías enviar los datos del formulario a un servidor usando fetch o AJAX
+      console.log('Formulario enviado con éxito');
+      showAlert('success', 'Tu mensaje ha sido enviado correctamente.');
 
-    // Mostrar mensaje de éxito
-    Swal.fire(
-      "Formulario enviado!",
-      "Nos pondremos en contacto contigo pronto.",
-      "success"
-    );
-
-    // Limpiar el formulario
-    contactForm.reset();
+      // Limpiar el formulario después de enviar
+      contactForm.reset();
+    }
   });
 });
